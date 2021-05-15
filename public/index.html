@@ -178,19 +178,15 @@ All Rights Reserved</FONT><BR><BR>
 <p id="last_modified"></p>
 <p id="date"></p>
 <script>
-document.getElementById("last_modified").innerHTML = document.lastModified;
-date = Date();
+document.getElementById("last_modified").innerHTML = "Last Modified: " + document.lastModified;
+date = new Date();
 m = date.getMonth() + 1;
 d = date.getDate();
 y = date.getFullYear();
-document.getElementById("date").innerHTML = "Today's Date is " + m + "/" + d + "/" + y;
+document.getElementById("date").innerHTML = "Today's Date: " + m + "/" + d + "/" + y;
 </script><BR><BR>
 
- <BR><BR>
-<img src="/cgi-sys/Count.cgi?df=califos7.dat|display=Counter|ft=6|md=5|frgb=100;139;216|dd=A"> 
-
-
- </CENTER>
+</CENTER>
 <BR><BR>
 </FONT>
 </BODY></HTML>
