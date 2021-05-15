@@ -175,11 +175,15 @@ Thief</A> <BR><BR>
 <A HREF="contact.html">Fred Smoot</A><BR>
 All Rights Reserved</FONT><BR><BR>
  
-
-<I>This page last updated on&nbsp;</I> <!--#config timefmt="%A, %B %d, %Y" --> <!--#echo var="LAST_MODIFIED"--> <BR>
+<p id="last_modified></p>
 <p id="date"></p>
 <script>
-document.getElementById("date").innerHTML = "Today's Date is " + Date();
+document.getElementById("last_modified").innerHTML = document.lastModified;
+date = Date();
+m = date.getMonth() + 1;
+d = date.getDate();
+y = date.getFullYear();
+document.getElementById("date").innerHTML = "Today's Date is " + m + "/" + d + "/" + y;
 </script><BR><BR>
 
  <BR><BR>
