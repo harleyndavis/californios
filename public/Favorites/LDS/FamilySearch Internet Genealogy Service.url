@@ -1,0 +1,15 @@
+[InternetShortcut]
+URL=http://www.familysearch.org/
+IDList=
+IconFile=http://www.familysearch.org/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[DEFAULT]
+BASEURL=http://www.familysearch.org/
+[DOC#9#10]
+BASEURL=http://www.familysearch.org/Eng/Home/banner_home.asp?navCurrent=1
+ORIGURL=Eng/Home/banner_home.asp?navCurrent=1
+[DOC#9#11]
+BASEURL=http://www.familysearch.org/Eng/Home/Welcome/simplePAFRegistration.asp
+ORIGURL=Eng/Home/Welcome/welcome.asp

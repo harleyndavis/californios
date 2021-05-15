@@ -1,0 +1,17 @@
+body {
+	background: dimgray;
+	color: #FFFFFF; 
+	font-family: trebuchet, verdana, lucida, helvetica, arial, sans-serif; 
+	font-size: 0.8em;
+        
+}
+a:link {
+	color: #FFFF66;
+}
+a:visited {
+	color: #FFCC00;
+}
+a:active {
+	color: #FF66CC;
+}
+

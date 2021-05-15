@@ -1,0 +1,43 @@
+/*---------------------------
+        TEXT STYLES
+---------------------------*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: mintcream;
+}
+
+td {
+  font-size: 60%;
+  font-family : Trebuchet, Verdana, Lucida, Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+p {
+  line-height: 150%;
+}
+
+a:link { color: #FFFFFF; text-decoration: none;}
+a:visited { color: #FFFFFF; text-decoration: none;}
+a:hover { color: #FFCC00; text-decoration: none;}
+
+.thumbnail {
+  margin: 3px;
+}
+
+.slide_text {
+  padding: 5px 10px 0px 10px;
+}
+
+
+    /*----  04M. SLIDESHOW  ----*/
+    
+    #content_gallery{ 
+    background-color: #E2A855; }
+    
+    #content_gallery p, li, h2
+    {color: #523716;}
+    
+    #content_gallery h1, h3
+    {color: #000000;}

@@ -1,0 +1,7 @@
+[DEFAULT]
+BASEURL=http://vu.sel.sony.com/US/perl/vaio-list.pl?mdl=VGNAR630E&os_id=28
+[InternetShortcut]
+URL=http://vu.sel.sony.com/US/perl/vaio-list.pl?mdl=VGNAR630E&os_id=28
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

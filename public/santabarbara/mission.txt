@@ -1,0 +1,37 @@
+Alta California Missions 
+In order of founding.
+  
+Mission                           Date         Location              Current      Military
+Name                              Founded      (City)                County       District
+------------------------------------------------------------------------------------------
+San Diego de Alcala..............16 Jul 1769...San Diego.............San Diego.........1st 
+San Carlos Borroméo de Carmelo... 3 Jun 1770...Carmel-by-the-Sea.....Monterey..........3rd
+San Antonio de Padua.............14 Jul 1771...Fort Hunter Liggett...Monterey..........3rd 
+San Gabriel Arcángel............. 8 Sep 1771...San Gabriel...........Los Angeles.......1st
+San Luis Obispo de Tolosa ....... 1 Sep 1772...San Luis Obispo.......San Luis Obispo...3rd 
+San Francisco de Asís............ 9 Oct 1776...San Francisco.........San Francisco.....4th
+San Juan de Capistrano........... 1 Nov 1776...San Juan Capistrano...Orange............1st
+Santa Clara de Asís..............12 Jan 1777...Santa Clara...........Santa Clara.......3rd
+San Buenaventura.................31 Mar 1782...Ventura...............Ventura...........2nd 
+Santa Bárbara.................... 4 Dec 1786...Santa Barbara.........Santa Barbara.....2nd 
+La Purisíma Concepción........... 8 Dec 1787...(n/w of) Lompoc.......Santa Barbara.....2nd
+La Exaltación de la Santa Cruz...25 Sep 1791...Santa Cruz............Santa Cruz........3rd 
+Nuestra Señora de la Soledad..... 9 Oct 1791...Soledad...............Montery...........3rd 
+San José.........................11 Jun 1797...Fremont...............Alameda...........4th 
+San Juan Bautista................24 Jun 1797...San Juan Bautista.....San Benito........3rd
+San Miguel de Arcángel...........25 Jul 1797...San Miguel............San Luis Obispo...3rd 
+San Fernando Rey de España....... 8 Sep 1797...Mission Hills.........Los Angeles.......1st
+San Luis Rey de Francia..........13 Jun 1798...Oceanside.............San Diego.........1st 
+Santa Inés.......................17 Sep 1804...Solvang...............Santa Barbara.....2nd 
+San Rafael Arcángel..............14 Dec 1817...San Rafael............Marin.............4th
+San Francisco de Solano..........17 Jul 1823...Sonoma................Sonoma County.....4th 
+
+Spanish Military Districts in California
+Number                     Name                           Founded
+-----------------------------------------------------------------
+First Military District....El Presidio de San Diego.......1769
+Second Military District...El Presidio de Santa Bárbara...1782
+Third Military District....El Presidio de Monterey........1770
+Fourth Military District...El Presidio de San Francisco...1776
+                          
+ 

@@ -1,0 +1,15 @@
+[DEFAULT]
+BASEURL=http://cgi.ebay.com/Mahongwe-Reliquary-Mbumba-Bwiti-Bwete-Gabon-Africa_W0QQitemZ190216571797QQihZ009QQcategoryZ4171QQssPageNameZWDVWQQrdZ1QQcmdZViewItem
+[DOC_datacommframe]
+BASEURL=http://frame.ebay.com/ws/eBayISAPI.dll?GetItemShippingCost&item=190216571797&oZipCode=18912&oCountry=US&hsp=0&ej2child=true&downgradeDomain=true&ej2parent=datacommframe
+ORIGURL=http://frame.ebay.com/ws/eBayISAPI.dll?GetItemShippingCost&item=190216571797&oZipCode=18912&oCountry=US&hsp=0&ej2child=true&downgradeDomain=true&ej2parent=datacommframe
+[InternetShortcut]
+URL=http://cgi.ebay.com/Mahongwe-Reliquary-Mbumba-Bwiti-Bwete-Gabon-Africa_W0QQitemZ190216571797QQihZ009QQcategoryZ4171QQssPageNameZWDVWQQrdZ1QQcmdZViewItem
+IDList=
+IconFile=http://cgi.ebay.com/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[DOC_skypeFrame]
+BASEURL=about:blank
+ORIGURL=

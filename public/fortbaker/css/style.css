@@ -1,0 +1,124 @@
+/*---------------------------
+	   01. COMMON STYLES
+---------------------------*/
+
+body {
+	background: mintcream;
+	font-family : Trebuchet, Verdana, Lucida, Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+	
+td {
+  font-size: 70%;
+  color: #000000;
+}
+
+a:link { color: #0B1A52; text-decoration: underline;}
+a:visited { color: #0B1A52; text-decoration: underline;}
+a:hover { color: #0B1A52;	text-decoration: none;}
+
+p {
+	margin-top: 0px;
+  text-align: left;
+}
+
+#contact {
+  font-size: 100%;
+	margin-top: 0px;
+  text-align: left;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 120%;
+  font-weight: bold;
+  text-align: left;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 110%;
+  font-weight: light;
+	margin: 0px;
+  padding-bottom: 15px;
+}
+
+h1.head {
+	font-weight: lighter;
+	font-size: 140%;
+  font-weight: bold;
+  text-align: left;
+	margin: 0px;
+	
+}
+
+h2.subhead {
+	font-size: 115%;
+  font-weight: bold;
+	margin: 0px;
+  margin-top: -5px;
+	font-style:italic;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+	margin: 25px 0px 0px 0px;
+}
+
+li {
+  margin-bottom: 5px;
+	line-height: 130%
+}
+ol, ul {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+ul.indent {
+  padding-bottom: 25px;
+	list-style-type: square;
+}
+ul.no_bullet {
+  margin-left: 15px;
+  list-style-type: none;
+  color: #000000;
+}
+
+ul.program_list {
+  margin-left: 15px;
+  color: #000000;
+}
+
+
+#program_list{
+	color: #000000;
+}
+
+ul.program {
+  margin-left: 15px;
+  color: #000000;
+}
+
+ul.program {
+  margin-left: 15px;
+  color: #000000;
+}
+
+div.indented {
+  padding: 0px 25px 0px 25px;
+  margin-top: 5px;
+}
+
+#program_links{
+	color: #000000;
+}
+#program_links p{
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 10px 0px;
+  line-height: normal;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+

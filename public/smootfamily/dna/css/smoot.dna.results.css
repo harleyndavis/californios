@@ -1,0 +1,161 @@
+							BODY {
+								background-color: #F5F5DC;
+								font-family: "Garamond", "Book Antiqua", "Century Schoolbook", "Times New Roman", Times, serif;
+							}
+							h1 {
+								text-align: center;
+								color: Navy;
+								font-size: 38px;
+								font-weight: bolder;
+								margin: -5px
+							}
+							h2 {
+								text-align: center;
+								color: Navy;
+								font-size: 24px;
+								font-style: italic;
+								font-variant: small-caps;
+								border-top: medium double Maroon;
+								border-top-width: thick;
+							}
+							P  {
+								text-indent: 0%;
+							}
+							P.note {
+								font-size: smaller;
+								font-style: oblique;
+							}
+							TABLE       {
+								border:  0px;
+							}
+							TABLE.results       {
+								border: outset 1pt;
+								border-collapse: collapse;
+								padding: 1pt;
+								font-size: 8.0pt;
+								font-family: serif;
+								border-color: black;
+							}
+							TH          {
+								border: inset 1pt;
+								vertical-align: top;
+								text-align: center;
+								width: 14px;
+								background: white;
+								border-color: black;
+							}
+							TH.dys {
+								text-align: center;
+								width: 550px;
+								background: yellow;
+							}
+							TH.ancestor {
+								text-align: center;
+								vertical-align: middle;
+								width: 260px;
+							}
+							TH.kit {
+								text-align: center;
+								vertical-align: middle;
+								width: 38px;
+							}
+							TH.haplo {
+								text-align: center;
+								vertical-align: middle;
+								width: 25px;
+							}
+							TH.red {
+								text-align: center;
+								color: red;
+							}
+							TD {
+								border: inset 1pt;
+								text-align: center;
+								border-color: black;
+							}
+							TD.nobordercenter  {
+								border: 0px;
+								text-align: center;
+							}
+							TD.noborder {
+								border: 0px;
+								text-align: left;
+							}
+							TD.headers {
+								border: 0px;
+								text-align: center;
+							}
+							TD.ancestor {
+								text-align: left;
+								font-weight: normal;
+								width: 260px;
+								background: white;
+							}
+							TD.kit {
+								text-align: center;
+								background: white;
+							}
+							TD.haplo {
+								text-align: center;
+								color: red;
+								font-weight: normal;
+								background: white;
+							}
+							TD.haploconfirmed {
+								text-align: center;
+								color: green;
+								font-weight: normal;
+								background: white;
+							}
+							TD.marker {
+								text-align: center;
+							}
+							.different {
+								background: Silver;
+							}
+							TR.group1 {
+								background: #E0FFFF;
+							}
+							TR.group2 {
+								background: #EEEEEE;
+							}
+							TR.group3 {
+								background: #F0FFF0;
+							}
+							TR.group4 {
+								background: #FFFACD;
+							}
+							TR.group5 {
+								background: #FFDAB9;
+							}
+							TR.group6 {
+								background: #FFDAB9;
+							}
+							TR.group7 {
+								background: #7FFFD4;
+							}
+							TR.group8 {
+								background: #B7C2FF;
+							}
+							TR.group9 {
+								background: white;
+							}
+							TR.group10 {
+								background: #FBFB99;
+							}
+							TR.group {
+								background: white;
+							}
+							.highlight {
+								background: #ffff00;
+								font-weight: bold;
+								color: red
+							}
+							CAPTION {
+								font-size: large;
+								font-weight: bold;
+								font-variant: small-caps;
+							}
+							SPAN.red {
+								color: #ff0000;
+							}

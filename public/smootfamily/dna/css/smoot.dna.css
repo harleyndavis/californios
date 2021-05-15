@@ -1,0 +1,87 @@
+							BODY {
+								background-image: url(../images/rootswebx.watermark.gif);
+								background-repeat: no-repeat;
+								background-attachment: fixed;
+								background-position: center;
+								background-color: #F5F5DC;
+								font-family: "Garamond", "Times New Roman", Times, serif;
+							}
+
+							h1 {
+								text-align: center;
+								color: Navy;
+								font-family: "Garamond", "Book Antiqua", "Century Schoolbook", "Times New Roman", Times, serif;
+								font-size: 38px;
+								font-weight: bolder;
+								margin: -5px
+							}
+
+							h2 {
+								text-align: center;
+								color: Navy;
+								font-family: "Garamond", "Book Antiqua", "Century Schoolbook", "Times New Roman", Times, serif;
+								font-size: 24px;
+								font-style: italic;
+								font-variant: small-caps;
+								border-top: medium double Maroon;
+								border-top-width: thick;
+							}
+
+							A:link	{
+								text-decoration: none;
+								font-weight: bold;
+								color: Blue;
+							}
+
+							A:visited	{
+								text-decoration: none;
+								font-weight: bold;
+								color: Purple;
+							}
+
+							A:active	{
+								text-decoration: none;
+								font-weight: bold;
+								color: black;
+								background: #CCCCFF;
+							}
+
+							A:hover	{
+								text-decoration: none;
+								color: #F5F5F5;
+								background: Blue;
+							}
+
+							A.offsite	{
+								text-decoration: none;
+								font-weight: normal;
+								color: Blue;
+								background: #F5F5F5;
+							}
+
+							dt {
+								font-style: italic;
+								font-weight: bold;
+								color: Maroon;
+								font-size: larger;
+							}
+
+							pre {
+								font: normal;
+								font-family: "Courier New", Courier, monospace;
+								font-size: 14px;
+								line-height: normal;
+							}
+
+							.yellow {
+								background-color: Yellow;
+							}
+
+							.footnote_ref {
+								vertical-align: super;
+								font-size: smaller;
+							}
+
+							.centered {
+								text-align: center;
+							}

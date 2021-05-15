@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://www.amazon.com/s/ref=nb_ss_gw/103-2801041-7391807?url=search-alias%3Ddvd&field-keywords=dvd+blu-ray
+[InternetShortcut]
+URL=http://www.amazon.com/s/ref=nb_ss_gw/103-2801041-7391807?url=search-alias%3Ddvd&field-keywords=dvd+blu-ray
+IDList=
+IconFile=http://www.amazon.com/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

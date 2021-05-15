@@ -1,0 +1,22 @@
+<p><center>
+<font size=+2><i><b>Click Back to Return</b></i></font>
+<HR SIZE="5"> 
+<p>
+<a href="http://www.usgennet.org/">
+<img SRC="http://www.usgennet.org/~usgnhome/graphics/uscert8.gif" ALT="Certified USGenNet&#0153 Safe-Site&#0153" height=105 width=286 BORDER="0"></a>
+</center>
+<p>
+<blockquote><font size=+1 color="navy">
+<div align=justify>
+This nonprofit message board is a USGenNet Certified Safe-Site&#0153;. 
+<a href="http://www.usgennet.org/">USGenNet</a> is an IRS-approved nonprofit public 
+benefit corporation, solely supported 
+by <a href="http://www.usgennet.org/~usgnhome/join.html">voluntary contributions</a>.
+All copyrights are the property of individual submitters, and this site is in full 
+compliance with with USGenNet's
+<a href="http://www.usgennet.org/~usgnhome/cou.html">Conditions
+of Use</a>. </font></div>
+<p></blockquote>
+</body>
+</html>
+

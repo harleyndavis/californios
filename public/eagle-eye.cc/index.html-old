@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML> 
+<HEAD>
+<TITLE>Eagle Eye, The Photography of Patty Sokolecki Smoot. Panoramic 
+Photographs. Widelux F8. Patty Sokolecki Smoot. Fine Arts, Designer, Publisher, Artist.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="00FFFF" VLINK="#0033FF">
+<UL>
+<TABLE WIDTH="660"><TR><TD VALIGN="TOP">
+<IMG SRC="graphics/eaglelogo.jpg" WIDTH="612" HEIGHT="238" ALT="Eagle"></TD></TR>
+<TR><TD ALIGN="CENTER"><IMG SRC="graphics/ps1.gif" WIDTH="459" HEIGHT="39" ALT="The 
+Photography of Patty Sokolecki-Smoot">
+</TD></TR></TABLE> 
+<UL><UL>
+<TABLE WIDTH="706"><TR><TD WIDTH="48" VALIGN="TOP"> 
+&nbsp;</TD><TD WIDTH="12" VALIGN="TOP"><IMG SRC="graphics/lineup.gif"></TD><TD VALIGN="TOP"> 
+<img border="0" src="graphics/ss1.jpg" 
+width="352" height="140" ALT="Java Required." id="Frame1"> <br>
+</TD><TD VALIGN="bottom"> <IMG SRC="graphics/arrow.jpg" WIDTH="122" HEIGHT="27" BORDER="0" ALT="Arrow"> 
+<A HREF="first.html"><IMG SRC="graphics/target.jpg" WIDTH="71" HEIGHT="27" BORDER="0" ALT="Target"></TD></TR>
+<TR><TD COLSPAN="3" ALIGN="CENTER">
+<FONT FACE="verdana,helvetica,arial,sans"><FONT SIZE="-1">About&nbsp;&nbsp; <A HREF="widelux-f8.html">Camera</A>&nbsp;&nbsp; 
+<A HREF="http://www.twogalspublishing.com">twoGALSpublishing</A></FONT></FONT>
+</TD></TR></TABLE> <BR> 
+<script language="JavaScript">
+// Browser Slide-Show script.
+// With image cross fade effect for those browsers that support it.
+// Script copyright (C) 2004 www.cryer.co.uk.
+// Script is free to use provided this copyright header is included.
+var slideCache = new Array();
+function RunSlideShow(pictureName,imageFiles,displaySecs)
+{
+  var imageSeparator = imageFiles.indexOf(";");
+  var nextImage = imageFiles.substring(0,imageSeparator);
+  if (document.all)
+  {
+    document.getElementById(pictureName).style.filter="blendTrans(duration=3)";
+    document.getElementById(pictureName).filters.blendTrans.Apply();
+  }
+  document.getElementById(pictureName).src = nextImage;
+  if (document.all)
+  {
+    document.getElementById(pictureName).filters.blendTrans.Play();
+  }
+  var futureImages= imageFiles.substring(imageSeparator+1,imageFiles.length)
+    + ';' + nextImage;
+  setTimeout("RunSlideShow('"+pictureName+"','"+futureImages+"',"+displaySecs+")",
+    displaySecs*2000);
+  // Cache the next image to improve performance.
+  imageSeparator = futureImages.indexOf(";");
+  nextImage = futureImages.substring(0,imageSeparator);
+  if (slideCache[nextImage] == null) {
+    slideCache[nextImage] = new Image;
+    slideCache[nextImage].src = nextImage;
+  }
+}
+</script>
+
+<script language="JavaScript">
+RunSlideShow("Frame1","graphics/ss1.jpg;graphics/ss2.jpg;graphics/ss3.jpg;graphics/ss4.jpg;graphics/ss5.jpg;" 
++ "graphics/ss6.jpg", 2);
+</script>
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+
+//3-way slideshow- by Suzanne Arnold (http://jandr.com/, suzanne@mail.jandr.com)
+//Script featured on JavaScript Kit (http://javascriptkit.com)
+//Credit must stay intact
+
+var Onerotate_delay = 5000; // delay in milliseconds (7000 = 7 secs)
+Onecurrent = 0;
+var OneLinks = new Array(3);
+OneLinks[0] = "http://www.freewarejava.com";
+OneLinks[1] = "http://www.javascriptkit.com";
+OneLinks[2] = "http://www.dynamicdrive.com";
+function Onenext() {
+if (document.Oneslideform.Oneslide[Onecurrent+1]) {
+document.images.Oneshow.src = document.Oneslideform.Oneslide[Onecurrent+1].value;
+document.Oneslideform.Oneslide.selectedIndex = ++Onecurrent;
+   }
+else Onefirst();
+}
+function Oneprevious() {
+if (Onecurrent-1 >= 0) {
+document.images.Oneshow.src = document.Oneslideform.Oneslide[Onecurrent-1].value;
+document.Oneslideform.Oneslide.selectedIndex = --Onecurrent;
+   }
+else Onelast();
+}
+function Onefirst() {
+Onecurrent = 0;
+document.images.Oneshow.src = document.Oneslideform.Oneslide[0].value;
+document.Oneslideform.Oneslide.selectedIndex = 0;
+}
+function Onelast() {
+Onecurrent = document.Oneslideform.Oneslide.length-1;
+document.images.Oneshow.src = document.Oneslideform.Oneslide[Onecurrent].value;
+document.Oneslideform.Oneslide.selectedIndex = Onecurrent;
+}
+function Oneap(text) {
+document.Oneslideform.Oneslidebutton.value = (text == "Stop") ? "Start" : "Stop";
+Onerotate();
+}
+function Onechange() {
+Onecurrent = document.Oneslideform.Oneslide.selectedIndex;
+document.images.Oneshow.src = document.Oneslideform.Oneslide[Onecurrent].value;
+}
+function Onerotate() {
+if (document.Oneslideform.Oneslidebutton.value == "Stop") {
+Onecurrent = (Onecurrent == document.Oneslideform.Oneslide.length-1) ? 0 : Onecurrent+1;
+document.images.Oneshow.src = document.Oneslideform.Oneslide[Onecurrent].value;
+document.Oneslideform.Oneslide.selectedIndex = Onecurrent;
+window.setTimeout("Onerotate()", Onerotate_delay);
+}
+}
+function Onetransport(){
+window.location=OneLinks[Onecurrent]
+}
+//  End -->
+</SCRIPT>
+<TITLE>La Fiesta Photographs. Old Spanish Days. Santa Barbara, California, 2006. Page 4 </TITLE></TITLE>
+</HEAD> 
+<BODY BGCOLOR="#FFFFFF" link="#0000BB" vlink="#A020F0">
+<FONT FACE="book antiqua, century schoolbook, times new roman, times"><FONT COLOR="#0000BB">
+<UL>
+<IMG SRC="fiestalogo4.jpg" WIDTH="200"  HEIGHT="300" BORDER="0" ALT="Children at the parade"> 
+
+<IMG SRC="fiestalogo.jpg" WIDTH="400"  HEIGHT="300" BORDER="0" ALT="Old Spanish Days, La Fiesta"> 
+<UL>
+
+<BR>
+<BR><BR>
+
+<TABLE border="0" cellspacing="0" cellpadding="0">
+  <TR>
+    <TD>
+      <form name="Oneslideform" >
+        <DIV align="center">
+          <TABLE width="490" border="0" cellspacing="0" cellpadding="4" bordercolor="#990000">
+            <TR>
+              <TD bgcolor="#FFFFFF">
+                <DIV align="center">
+
+<FONT COLOR="#990000" SIZE="+3"><I><B><IMG SRC="cross-sm.gif"> Slideshow Cuatro ~ 4 <IMG SRC="cross-sm.gif"></B></I></FONT>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#FFFFFF">
+                <DIV align="center"><A href="javascript:Onetransport()"><IMG src="ps_1010110.jpg" width="480" height="360" name="Oneshow" border="0"></A></DIV>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#FFFFFF">
+                <DIV align="center">
+                  <SELECT name="Oneslide" onChange="Onechange();">
+                    <OPTION value="ps_1010110.jpg"  selected>Welcome All ! [ps]</OPTION>
+                    <OPTION value="ps_1010036.jpg">Wagon Master (1) [ps]</OPTION>
+                    <OPTION value="fs_1030387.jpg">Wagon Master (2) [fs]</OPTION>
+                    <OPTION value="ps_1010037.jpg">Torera [ps]</OPTION>
+                    <OPTION value="ps_1010051.jpg">Dos Sombreros [ps]</OPTION>
+                    <OPTION value="fs_1030405.jpg">Reach for the Sky ! [fs]</OPTION>
+                    <OPTION value="fs_1030426.jpg">Rose and Lace [fs]</OPTION>
+                    <OPTION value="fs_1030437.jpg">Guardians [fs]</OPTION>
+                    <OPTION value="fs_1030443.jpg">Future Perfect [fs]</OPTION>
+                    <OPTION value="fs_1030447.jpg">The Fan [fs]</OPTION>
+                    <OPTION value="fs_1030451.jpg">&#0191;Agua por favor? [fs]</OPTION>
+                    <OPTION value="fs_1030456.jpg">Pirates [fs]</OPTION>
+                  </SELECT>
+      </DIV>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#FFFFFF">
+                <DIV align="center">
+                  <INPUT type=button onClick="Oneprevious();" value="<<" title="Previous">
+                  <INPUT type=button name="Oneslidebutton" onClick="Oneap(this.value);" value="Start" title="AutoPlay">
+                  <INPUT type=button onClick="Onenext();" value=">>" title="Next">
+          </DIV>
+              </TD>
+            </TR>
+          </TABLE>
+        </DIV>
+      </form>
+    </TD>
+  </TR>
+</TABLE>
+<FONT SIZE="+2"><I><B>Back:</B></I> <A HREF="../lafiesta/">Slideshow N&#0250;mero Uno ~ 1</A></FONT> <BR><BR>
+
+<FONT SIZE="+2"><I><B>Back:</B></I> <A HREF="ss-dos.html">Slideshow N&#0250;mero Dos ~ 2</A></FONT> <BR><BR>
+<FONT SIZE="+2"><I><B>Back:</B></I> <A HREF="ss-tres.html">Slideshow N&#0250;mero Tres ~ 3</A></FONT> <BR><BR>
+
+<FONT SIZE="-1">Photo Credits: [ps] Patty Sokolecki Smoot; [fs] Fred Smoot <BR><BR>
+&#0169; Patty Sokolecki Smoot and Fred Smoot 2006.<BR>
+Copyright information: Noncommercial Sampling Allowed: <BR>
+You may take and transform the photo images for noncommercial purposes only. 
+<BR>Noncommercial copying and distribution of the entire work are also allowed. <BR>
+Photographers must be credited.</FONT> 
+<BR><BR>
+<FONT SIZE="+2"><I><B>Return to:</B></I>  <A HREF="../">Santa Barbara County Photographs</A></FONT> <BR><BR>
+
+<A HREF="../../">
+<IMG SRC="sbchp.gif" WIDTH="311" HEIGHT="28" BORDER="0" ALT="Home Page"></A><BR>
+<BR> </FONT>
+<font face="arial" size="-2">This free script provided by</font><br>
+<font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+Kit</a></font></p><BR>
+</FONT> 
+</BODY> 
+</HTML>

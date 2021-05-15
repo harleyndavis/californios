@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=https://login.comcast.net/login?s=portal&continue=http%3A%2F%2Fwww6.comcast.net%2Fa%2F
+[InternetShortcut]
+URL=https://login.comcast.net/login?s=portal&continue=http%3A%2F%2Fwww6.comcast.net%2Fa%2F
+IDList=
+IconFile=https://login.comcast.net/static/images/evo/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[DOC#89]
+BASEURL=https://login.comcast.net/static/html/adevertisment.html
+ORIGURL=/static/html/adevertisment.html

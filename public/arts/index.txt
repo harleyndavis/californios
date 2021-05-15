@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"> 
+<HTML> 
+<HEAD> 
+<TITLE>Fine Art Painting of Fred Smoot, Oil Paintings by Commission</TITLE> 
+</HEAD> <BODY BGCOLOR="#FFFFFF"  BACKGROUND="oldpaper.gif" link="#0000FF" vlink="#A020F0">  
+
+<CENTER>
+
+<IMG SRC="../graphics/cal-2.gif" ALT="Californios" WIDTH="330" HEIGHT="88"> 
+<BR><BR>
+<IMG SRC="../graphics/flower-tile-3.jpg"> <IMG SRC="../graphics/flower-tile-4.jpg"> <BR><BR>
+
+<IMG SRC="arts-logo.gif" ALT="Frederick Smoot Fine Arts" WIDTH="297"  HEIGHT="108"><BR>
+
+
+<IMG SRC="art-types.gif" ALT="Western, Maritime, Historic" WIDTH="292"  HEIGHT="27">
+<BR>  <BR>
+
+<IMG SRC="wapama2.jpg" ALT="Wapama, painting" WIDTH="658" HEIGHT="451">
+<BR><BR>
+
+
+<IMG SRC="wapama3.gif" ALT="Wapama, text" WIDTH="259"  HEIGHT="47">
+
+
+
+<BR><BR> 
+<FONT FACE="book antiqua, century schoolbook, times new roman, times"> 
+</CENTER><DIV ALIGN="justify">
+<BLOCKQUOTE>&nbsp;&nbsp;&nbsp; The steam schooner -- a wooden-hulled steamer designed for the coastal lumber trade -- is 
+unique to the West Coast. The <I>Wapama</I> is the last of 235 steam schooners built  on that Coast. 
+She was built in 1915 for the run between Oregon and California.  The long shallow hulls of the steam schooners 
+made for a weak structure, prone to sag at the bow  and stern. As age and decay sapped the strength of the 
+<I>Wapama&#0146;s</I> massive  timbers  this &#0147hogging&#0148 process became so bad that she could not remain 
+afloat.  Placed on a barge in 1980 the <I>Wapama</I> remains a unique and impressive piece  of naval 
+architecture. Given suitable systems for rot control, physical support and  weather protection, 
+it will be possible to preserve the ship indefinitely out of  the water.   <BR>
+&nbsp;&nbsp;&nbsp; This painting 
+was done while the <I>Wapama</I> was in the historic Oakland estuary, Oakland, California.  
+In the distance behind the ship are the buildings of the U. S. Coast Guard base  at Alameda. 
+Currently, the <I>Wapama</I> is located in Richmond California.  <BR><BR> 
+<CENTER>Oil on board, 
+48" x 31.5"   <BR><BR>   </BLOCKQUOTE></DIV>  
+<CENTER>
+<IMG SRC="../graphics/flower-tile-5.jpg"> <IMG SRC="../graphics/flower-tile-6.jpg"> <BR><BR><BR>
+
+<IMG SRC="redrocks.jpg" ALT="Red Rock thumbnail" WIDTH="240" HEIGHT="179"><BR>  
+<A HREF="redrock.html">Click Here for Big Picture</A><BR><BR><BR>
+
+<IMG SRC="yaak1.jpg" WIDTH="350" HEIGHT="252"><BR>
+Yaak River, Montana&nbsp; <i><Font Color="red">(detail)</FONT></I><BR><BR>
+<A HREF="shadows-land.jpg"><IMG SRC="shadows-land-350.jpg" width="350" HEIGHT="284" BORDER="0" ALT="Shadows on the Land"><BR><BR>
+
+Shadows on the Land <BR>
+Oil on Masonite, 38" x 30"<BR><BR>
+<IMG SRC="../graphics/flower-tile-1.jpg"> <IMG SRC="../graphics/flower-tile-2.jpg"> <BR><BR>
+
+<FONT SIZE="-1">
+<IMG SRC="fs-name.gif" ALT="Home Page" WIDTH="138" HEIGHT="22"><BR>
+
+<A HREF="../contact.html">E~mail 
+Me!</A><BR><BR> 
+
+<IMG SRC="cal-os-home.gif" ALT="Home Page" WIDTH="138" HEIGHT="22"><BR>
+<A HREF="../">Click Here</A> </FONT></CENTER><BR><BR> 
+</FONT>
+</BODY> 
+</HTML> 

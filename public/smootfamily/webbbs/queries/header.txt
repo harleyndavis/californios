@@ -1,0 +1,12 @@
+<HTML><HEAD><TITLE>Smoot Query Board. Smoot Family Association. USGenNet Inc.</TITLE>
+</HEAD>
+	
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="red" ALINK="" BACKGROUND=" ">
+<CENTER>
+<IMG SRC="http://www.usgennet.org/~usgnhome/graphics/usgnhost.gif" 
+ALT="Genenerously Hosted by USGenNet - The Biggest Little Safe-Site Server on the Internet!">
+<BR>
+<FONT SIZE="+1">Smoot Family Association Query Board</FONT><BR>
+Post your genealogical queries here.<BR><BR>
+<HR SIZE="5"></CENTER>
+<BR><BR>

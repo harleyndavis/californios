@@ -1,0 +1,15 @@
+[DEFAULT]
+BASEURL=http://mail.google.com/mail/
+[DOC_hist_frame]
+BASEURL=http://mail.google.com/mail/?ui=2&view=js&name=js&ids=ejnpb95zucrn
+ORIGURL=?ui=2&view=bsp&ver=ymdfwq781tpu
+[DOC_sound_frame]
+BASEURL=http://mail.google.com/mail/?ui=2&view=js&name=js&ids=ejnpb95zucrn
+ORIGURL=?ui=2&view=bsp&ver=ymdfwq781tpu
+[InternetShortcut]
+URL=http://mail.google.com/mail/#inbox
+IDList=
+IconFile=http://mail.google.com/mail/images/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

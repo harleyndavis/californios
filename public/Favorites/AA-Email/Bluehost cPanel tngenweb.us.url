@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://69.89.25.165:2095/webmail/bluehost/
+[InternetShortcut]
+URL=http://69.89.25.165:2095/webmail/bluehost/
+IDList=
+IconFile=http://69.89.25.165:2095/cPanel_magic_revision_1181099246/webmail/bluehost/branding/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

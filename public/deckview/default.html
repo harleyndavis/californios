@@ -1,0 +1,246 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Views From Our Sausalito Home Deck, Slideshow, Marin County, California. Photo Gallery. Californios.us</title>
+<meta name="keywords" content="Californios.us, ">
+<meta name="description" content="Sausalito Photo Gallery slideshow">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="StyleSheet" type="text/css" href="css/slideshow.css">
+<link rel="StyleSheet" type="text/css" href="css/style.css">
+
+<script language="JavaScript" type="text/javascript">
+
+// (C) 2002 www.CodeLifter.com
+// http://www.codelifter.com
+// Free for all users, but leave in this header.
+
+<!--
+var slideShowSpeed = 5000;
+var crossFadeDuration = 10;
+var Pic = new Array(30);
+Pic[0] = "images/slide_01.jpg";
+Pic[1] = "images/slide_02.jpg";
+Pic[2] = "images/slide_03.jpg";
+Pic[3] = "images/slide_04.jpg";
+Pic[4] = "images/slide_05.jpg";
+Pic[5] = "images/slide_06.jpg";
+Pic[6] = "images/slide_07.jpg";
+Pic[7] = "images/slide_08.jpg";
+Pic[8] = "images/slide_09.jpg";
+Pic[9] = "images/slide_10.jpg";
+Pic[10] = "images/slide_11.jpg";
+Pic[11] = "images/slide_12.jpg";
+Pic[12] = "images/slide_13.jpg";
+Pic[13] = "images/slide_14.jpg";
+Pic[14] = "images/slide_15.jpg";
+Pic[15] = "images/slide_16.jpg";
+Pic[16] = "images/slide_17.jpg";
+Pic[17] = "images/slide_18.jpg";
+Pic[18] = "images/slide_19.jpg";
+Pic[19] = "images/slide_20.jpg";
+Pic[20] = "images/slide_21.jpg";
+Pic[21] = "images/slide_22.jpg";
+Pic[22] = "images/slide_23.jpg";
+Pic[23] = "images/slide_24.jpg";
+Pic[24] = "images/slide_25.jpg";
+Pic[25] = "images/slide_26.jpg";
+Pic[26] = "images/slide_27.jpg";
+Pic[27] = "images/slide_28.jpg";
+Pic[28] = "images/slide_29.jpg";
+Pic[29] = "images/slide_30.jpg";
+
+
+var Text = new Array(30);
+Text[0] = "Sunrise<br>-+-<br><i>15 Nov 2005</i><br><br>";
+Text[1] = "Easy Sailing<br>-+-<br><i>30 Aug 2005</i><br><br>";
+Text[2] = "<i>Kaisei</i><br>Ocean Voyages, Inc.<br>-+-<br><i>16 Nov 2005</i><br><br>";
+Text[3] = "Lady Washington<br>-+-<br><i>2 Dec 2005</i><br><br>";
+Text[4] = "Sunrise<br>-+-<br><i>13 Mar 2006</i><br><br>";
+Text[5] = "School's In<br><i>-+-<br>20 Jan 2007</i><br><br>";
+Text[6] = "Fire in the Hold!<br>-+-<br><i>4 Apr 2007</i><br><br>";
+Text[7] = "Lady Washington<br>-+-<br><i>6 Apr 2007</i><br><br>";
+Text[8] = "Deck Garden<br>-+-<br><i>19 May 2007</i><br><br>";
+Text[9] = "Potomac<br>-+-<br><i>2 Sep 2007</i><br><br>";
+Text[10] = "Sunrise<br>-+-<br><i>4 Sep 2007</i><br><br>";
+Text[11] = "Moon Rise<br>-+-<br><i>26 Sep 2007</i><br><br>";
+Text[12] = "Angel Island<br>-+-<br><i>7 Oct 2007</i><br><br>";
+Text[13] = "Birds of a Feather<br>-+-<br><i>13 Oct 2007</i><br><br>";
+Text[14] = "Clean Bay II<br>-+-<br><i>9 Nov 2007</i><br><br>";
+Text[15] = "U.S.<br>Coast Guard<br><i>at</i><br>Sunrise<br>-+-<br><i>15 May 2008</i><br><br>";
+Text[16] = "Sunrise<br>-+-<br><i>10 Jun 2008</i><br><br>";
+Text[17] = "Bombs Bursting in Air<br>-+-<br><i>4 Jul 2008</i><br><br>";
+Text[18] = "Wildfire Haze<br>-+-<br><i>9 Jul 2008</i><br><br>";
+Text[19] = "Sunrise<br>-+-<br><i>10 Jul 2008</i><br><br>";
+Text[20] = "Sunrise<br>-+-<br><i>11 Jul 2008</i><br><br>";
+Text[21] = "Smog<br>-+-<br><i>27 Apr 2007</i><br><br>";
+Text[22] = "Water Dance<br>-+-<br><i>4 Jun 2005</i><br><br>";
+Text[23] = "Rainy Day<br>-+-<br><i>6 Nov 2005</i><br><br>";
+Text[24] = "Sunrise<br>-+-<br><i>28 Sep 2005</i><br><br>";
+Text[25] = "After the Rain<br>-+-<br><i>3 Apr 2005</i><br><br>";
+Text[26] = "Rooftops<br>-+-<br><i>2 Feb 2006</i><br><br>";
+Text[27] = "Official Business<br>-+-<br><i>1 Aug 2008</i><br><br>";
+Text[28] = "Imperial Stormtroopers<br>-+-<br><i>6 Aug 2008</i><br><br>";
+Text[29] = "False Dawn<br>-+-<br><i>22 Aug 2008</i><br><br>";
+var t;
+var j = 0;
+var p = Pic.length;
+var numsString = "";
+var slideNo = 0;
+var slidesPerLine = 10;
+var lineCounter = 1;
+var preLoad = new Array();
+for (i = 0; i < p; i++){
+   preLoad[i] = new Image();
+   preLoad[i].src = Pic[i];
+}
+function runSlideShow(){
+   if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=10)";
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+      document.images.SlideShow.filters.blendTrans.Apply();
+   }
+   if ( j > preLoad.length ){
+     j = 0;
+   }
+   document.images.SlideShow.src = preLoad[j].src;
+	 SlideText.innerHTML = Text[j];
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play();
+   }
+   showNumbers(j);
+   j = j + 1;
+   if (j > (p-1)){
+     j=0;
+   }
+   t = setTimeout('runSlideShow()', slideShowSpeed);
+}
+function showNumbers(slide){
+  numsString = "";
+  slideNo = 0;
+  lineCounter = 1;
+	var dispNo = "";
+  for ( var i = 0; i < preLoad.length; i++ ){
+    slideNo = i;
+		if ( slideNo < 9 ){
+		  dispNo = "0"+(slideNo + 1);
+		} else {
+		  dispNo = slideNo + 1;
+		}
+    if ( i == j ){
+      numsString += "<img src='images/thm_over_"+dispNo+".jpg' alt='' width='75' height='75' border='0' class='thumbnail'/>";
+    } else {
+      numsString += "<a href='#' onClick='javascript:goToSlide("+slideNo+");return false;'><img src='images/thm_"+dispNo+".jpg' alt='' width='75' height='75' border='0' class='thumbnail'/></a>";
+    }
+    if ( lineCounter < slidesPerLine ){
+      if ( i < (preLoad.length - 1)){
+        numsString += "";
+        lineCounter++;
+      }
+    } else {
+//      alert(lineCounter+" :: "+slidesPerLine);
+      numsString += "<br />";
+      lineCounter = 1;
+    }
+  }
+  slideNumbers.innerHTML = numsString;
+}
+function goToSlide( slide ){
+  j = slide;
+  if ( j < 0 ){
+    j = preLoad.length - Math.abs(j);
+  }
+  if (document.all){
+     document.images.SlideShow.style.filter="blendTrans(duration=10)";
+     document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+     document.images.SlideShow.filters.blendTrans.Apply();
+  }
+  document.images.SlideShow.src = preLoad[j].src;
+  if (document.all){
+    document.images.SlideShow.filters.blendTrans.Play();
+  }
+  showNumbers(j);
+}
+function nextSlide(){
+  if (j > (p-1)){
+     j=0;
+  }
+  if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=10)";
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+      document.images.SlideShow.filters.blendTrans.Apply();
+   }
+   document.images.SlideShow.src = preLoad[j].src;
+	 SlideText.innerHTML = Text[j];
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play();
+   }
+   showNumbers(j);
+   j++;
+}
+function prevSlide(){
+  j = j - 2;
+  if (j < 0){
+     j=p-2;
+  }
+  if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=10)";
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+      document.images.SlideShow.filters.blendTrans.Apply();
+   }
+   document.images.SlideShow.src = preLoad[j].src;
+	 SlideText.innerHTML = Text[j];
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play();
+   }
+   showNumbers(j);
+}
+-->
+</script></head>
+
+<body onLoad="javascript:runSlideShow();" id="gallery_one">
+<a name="top"></a>
+
+<table align="center" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="dimgray">
+
+<table border="0" cellpadding="0" cellspacing="0" width="810" style="margin: 10px 0px 10px 0px;">
+<tr><td width="266" valign="top">
+<a href="../"><img src="graphics/californios3.gif" alt="Californios.us" width="265" height="33" border="0"></a> <br><br></td>
+<td width="544" align="right" valign="bottom">
+<img src="graphics/kilroy2.gif" width="50" height="22" alt="Kilroy">&nbsp;&nbsp; | deck view slideshow |&nbsp;
+</td></tr></table>
+    
+</td></tr>
+<tr><td bgcolor="#F0FFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" background="graphics/waterwall-d.jpg">
+<tr><td>
+
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+<tr><td width="560" align="center" rowspan="2">
+<img id="SlideShow" name="SlideShow" src="images/slide_01.jpg" width="560" height="420" border="0" alt="slideshow"></td>
+<td align="center" class="slide_text" valign="bottom" colspan="2" style="height: 220px; padding: 20px;"><span id="SlideText" name="SlideText"></span></td>
+      	</tr>
+        <tr>
+<td width="80" align="center" valign="top" style="height: 80px;"><a href="slide=0" onClick="javascript:prevSlide();return false;"><img src="graphics/arrow_back.gif" name="Back" width="38" height="25" border="0" alt="Back" vspace="20"></a></td>
+
+<td width="80" align="center" valign="top" style="height: 80px;"><a href="slide=2"  onClick="javascript:nextSlide();return false;"><img src="graphics/arrow_next.gif" name="Next" width="38" height="25" border="0" alt="Next" vspace="20"></a></td>
+</tr></table>
+
+</td></tr></table>
+
+</td></tr>
+<tr><td valign="top">
+<table width="768" border="0" cellpadding="0" cellspacing="0" >
+<tr><td width="768" valign="top"> <br>
+
+<div id="slideNumbers" name="slideNumbers" style="line-height: 24px; height: 182px; width: 850px; padding: 10px;"></div>
+<noscript>
+<img src='images/thm_01.jpg' alt='' width='75' height='75' border='0' class='thumbnail'/>&nbsp;<a href="images/slide=2">02</a>&nbsp;<a href="images/slide=3">03</a>&nbsp;<a href="images/slide=4">04</a>&nbsp;<a href="images/slide=5">05</a>&nbsp;<a href="images/slide=6">06</a>&nbsp;<a href="images/slide=7">07</a>&nbsp;<a href="images/slide=8">08</a>&nbsp;<a href="images/slide=9">09</a>&nbsp;<a href="images/slide=10">10</a><br /><a href="images/slide=11">11</a>&nbsp;<a href="images/slide=12">12</a>&nbsp;<a href="images/slide=13">13</a>&nbsp;<a href="images/slide=14">14</a>&nbsp;<a href="images/slide=15">15</a>&nbsp;<a href="images/slide=16">16</a>&nbsp;<a href="images/slide=17">17</a>&nbsp;<a href="images/slide=18">18</a>&nbsp;<a href="images/slide=19">19</a>&nbsp;<a href="images/slide=20">20</a>&nbsp;<a href="images/slide=21">21</a>&nbsp;<a href="images/slide=22">22</a>&nbsp;<a href="images/slide=23">23</a>&nbsp;<a href="images/slide=24">24</a>&nbsp;<a href="images/slide=25">25</a>&nbsp;<a href="images/slide=26">26</a>&nbsp;<a href="images/slide=27">27</a>&nbsp;<a href="images/slide=28">28</a>&nbsp;<a href="images/slide=29">29</a>&nbsp;<a href="images/slide=30">30</a><br />              </noscript>
+</td></tr></table>
+<table width="820"><tr><td div align="right">
+| <a href="../goldengate">golden gate slideshow</a> | <a href="../sausalito">sausalito slideshow</a> | <a href="../">californios home</a> | <a href="../contact.html">contact</a> |
+</td></tr></table>
+
+</body>
+</html>

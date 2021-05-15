@@ -1,0 +1,15 @@
+[InternetShortcut]
+URL=http://www.abebooks.com/
+IDList=
+IconFile=http://www.abebooks.com/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[DEFAULT]
+BASEURL=http://www.abebooks.com/
+[DOC_topten]
+BASEURL=http://www.abebooks.com/servlet/RankedCategoryDisplay?displayType=topten
+ORIGURL=/servlet/RankedCategoryDisplay?displayType=topten
+[DOC_quoteiframe]
+BASEURL=http://www.abebooks.com/docs/Includes/footer-quotes/quote.shtml
+ORIGURL=/docs/Includes/footer-quotes/quote.shtml

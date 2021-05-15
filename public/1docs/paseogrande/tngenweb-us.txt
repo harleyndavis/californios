@@ -1,0 +1,50 @@
+TNGenNet, TNGenWeb Inc.
+NS1.BLUEHOST.COM
+NS2.BLUEHOST.COM
+
+Login:  19560745
+PW: 666dog
+Hint: Bad Dog
+Pin 6666
+
+PayPal Friendly at BlueHost: pattycakes
+
+Domain name account information at Go Daddy: 
+Domain: tngenweb.us
+Registered owner: TNGenNet, TNGenWeb Inc.
+Customer Number: 19560745
+Order Number: 102659763
+Login Name: 19560745
+Password: 666dog
+Password Hint: bad dog
+Initial registration: Two years.
+Created on: 16-Mar-08
+Expires on: 15-Mar-10
+Current Name servers: NS1.BLUEHOST.COM, NS2.BLUEHOST.COM
+
+A few tech details:
+
+URL: http://www.tngenweb.us/ (index.html page is a 0 time redirect to tngenweb.org)
+
+tngenweb.us is an add-on domain to my primary account, californios.us, at BlueHost. 
+Actual directory structure is: http://www.californios.us/tngenweb/index.html
+
+
+
+californios.us at BlueHost
+
+Nancy,
+
+I need you to keep this in case Patty ever needs help with my primary californios.us account at BlueHost -- or if you need to do something with the tngenweb subdirectory.
+
+Login:
+   Domain name: californios.us
+   Password: dog666
+
+   User name: califos7
+
+The account is currently paid to 12 Sep 2010.
+
+Fred
+
+   
